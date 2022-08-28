@@ -1,0 +1,130 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+}
+header{
+    background-color: aquamarine;
+    width: 9%;
+    padding: 12px 0;
+    border-radius: 20px;
+
+}
+.imagenL{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.imagen-muneco{
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
+}
+
+body {
+    height: 400px;
+    background-image: url(imagene/fondo.png);
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: 90rem;
+   
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10 px 30px 15px #000000;
+} 
+
+.input-texto {
+    margin-top: 90px;
+    resize: none;
+    text-transform: lowercase;
+    border-radius: 20px;
+}
+
+
+.mensaje-box {
+    width:36rem;
+    left:4.3rem;
+    top:40rem;
+    padding:0;
+    height:100%
+   
+}
+.mensaje {
+    text-align: center;
+    position: static;
+    margin-top: 20px;
+    margin-left: 120px;
+    background-image: url("imagene/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border-radius: 20px;
+
+}
+
+
+.imagenM{
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 50px;
+
+}
+.copiar {
+    margin-top: 5px;
+    margin-left: 400px;
+    background-color: rgb(46, 212, 31);
+    border-radius: 20px;
+  
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px; 
+}
+
+div button:hover{
+    color: rgb(46, 212, 31);
+    text-decoration: :overline 
+
+}
+.encriptar{
+    background-color: darkblue;
+    color:white;
+    border-radius: 20px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.informacion {   
+      font-size: 20px;
+      color: yellow;
+
+
+}
+.ningun{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+    text-align: center; 
+}
+.copyright {
+    color:azure;
+    font-size: 12px;
+    margin: 20px;
+    
+
+}
